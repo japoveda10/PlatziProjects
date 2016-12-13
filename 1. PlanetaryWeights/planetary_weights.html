@@ -7,12 +7,20 @@
   </head>
   <body>
     <h1>Your weight in other planets</h1>
+    <hr>
     <p>Do you want to know your weight in other planets? Complete the following questionnaire to discover it.</p>
     <p><b>1. Whats your Earth weight?</b></p>
-    <input type="text" id="userWeight"></input>
+
+    <div id="inputTextField">
+      <input type="number" id="userWeight"></input>
+    </div>
+
     <p><b>2. Choose the planet you are interested in:</b></p>
-    <input type="button" id="mars" value= "Mars"></input><br>
-    <input type="button" id="jupiter" value= "Jupiter"></input><br>
+    
+    <div id="buttons">
+      <input type="button" id="mars" value= "Mars"></input><br>
+      <input type="button" id="jupiter" value= "Jupiter"></input><br>
+    </div>
 
     <p id="answerParagraph"></p>
     <script src="planetary_weights.js">

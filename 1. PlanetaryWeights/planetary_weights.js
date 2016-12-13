@@ -20,14 +20,31 @@ marsButton.addEventListener("click", marsWeight);
 var jupiterButton = document.getElementById("jupiter");
 jupiterButton.addEventListener("click", jupiterWeight);
 
+//Calculates weight in mars
 function marsWeight()
 {
-  answer = (weight.value * marsGravity) / earthGravity;
-  answerText.innerHTML = "Your weight in mars is " + answer;
+  if(weight.value <=0)
+  {
+    alert("Type a valid Earth weight");
+  }
+  else
+  {
+      answer = (weight.value * marsGravity) / earthGravity;
+      answerText.innerHTML = "Your weight in mars is " + answer;
+  }
 }
 
+
+//Calculates weight in jupiter
 function jupiterWeight()
 {
-  answer = (weight.value * jupiterGravity) / earthGravity;
-  answerText.innerHTML = "Your weight in jupiter is " + answer;
+  if(weight.value <=0)
+  {
+    alert("Type a valid Earth weight");
+  }
+  else
+  {
+      answer = (weight.value * jupiterGravity) / earthGravity;
+      answerText.innerHTML = "Your weight in jupiter is " + answer;
+  }
 }

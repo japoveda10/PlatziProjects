@@ -34,7 +34,6 @@ function marsWeight()
   }
 }
 
-
 //Calculates weight in jupiter
 function jupiterWeight()
 {

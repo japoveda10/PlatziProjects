@@ -2,24 +2,5 @@ body
 {
   background-color: #66B2FF;
   font-family: Verdana;
-}
-
-h1
-{
-  text-align: center;
-}
-
-p
-{
-  text-align: center;
-}
-
-#inputTextField
-{
-  text-align: center;
-}
-
-#buttons
-{
   text-align: center;
 }

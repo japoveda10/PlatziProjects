@@ -1,4 +1,4 @@
-# Drawing Canvas
+# DrawingCanvas
 Some drawings made with canvas
 
 ##How does it work?

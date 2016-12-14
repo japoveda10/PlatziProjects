@@ -18,10 +18,10 @@ for(var i=0; i<300; i++)
 {
 </code><br>
 <code>
-draw(0, i*10, (i+1)*10, 300);
+draw(0, i(multiplied by)10, (i+1)(multiplied by)10, 300);
 </code><br>
 <code>
- draw(300, 300 - (i*10), 300 - ((i+1)*10), 0);
+ draw(300, 300 - (i(multiplied by)10), 300 - ((i+1)(multiplied by)10), 0);
 </code><br>
 <code>
 }
@@ -37,3 +37,6 @@ remain the same while initialY and finalX increase by 10 pixels.
 
 In each iteration of the <code>for</code> and for the second figure (upper-right figure), initialX and finalY
 remain the same while initialY and finalX decrease by 10 pixels.
+
+<b>Note</b>
+The (multiplied by) is replacing the multiply symbol in JavaScript, because it cannot be shown in this type of file.

@@ -9,7 +9,7 @@ Drawing Canvas has 3 files:
 <br>
 In the JavaScript file, there is a function called <code>draw</code> that draws a line based on its parameters 
 (first point x coordinate, first point y coordinate, second point x coordinate, second point y coordinate). The next cycle 
-is in charge of making the figures:
+is in charge of making the figures. The first <code>draw</code> function invocation draws the bottom-left figure and the second <code>draw</code> function invocation draws the upper-right figure:
 
 <code>
 for(var i=0; i<300; i++)

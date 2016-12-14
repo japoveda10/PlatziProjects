@@ -15,9 +15,9 @@ for(var i=0; i<300; i++)
 <br>
 {
 <br>
-draw(0, i*10, (i+1)*10, 300);
+draw(0, i(times)10, (i+1)(times)10, 300);
 <br>
- draw(300, 300 - (i*10), 300 - ((i+1)*10), 0);
+ draw(300, 300 - (i(times)10), 300 - ((i+1)(times)10), 0);
 <br>
 }
 
@@ -31,3 +31,6 @@ remain the same while initialY and finalX increase by 10 pixels.
 
 In each iteration of the <code>for</code> and for the second figure (upper-right figure), initialX and finalY
 remain the same while initialY and finalX decrease by 10 pixels.
+
+<b>Note</b>
+<p>(times) is replacing the multiply symbol because it cannot be shown in this document.</p>

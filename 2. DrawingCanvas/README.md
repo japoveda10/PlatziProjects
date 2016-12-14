@@ -11,6 +11,7 @@ In the JavaScript file, there is a function called <code>draw</code> that draws 
 (first point x coordinate, first point y coordinate, second point x coordinate, second point y coordinate). The next cycle 
 is in charge of making the figures. The first <code>draw</code> function invocation draws the bottom-left figure and the second <code>draw</code> function invocation draws the upper-right figure:
 
+<div align="center">
 for(var i=0; i<300; i++)
 <br>
 {
@@ -20,6 +21,7 @@ draw(0, i*10, (i+1)*10, 300);
  draw(300, 300 - (i*10), 300 - ((i+1)*10), 0);
 <br>
 }
+</div>
 
 The drawing is made up with different lines. Let (initialX, initialY) be the first point and (finalX, finalY)
 be the second point of a line.
@@ -30,4 +32,4 @@ remain the same while initialY and finalX increase by 10 pixels.
 <br>
 
 In each iteration of the <code>for</code> and for the second figure (upper-right figure), initialX and finalY
-remain the same while initialY and finalX decrease by 10 pixels. *
+remain the same while initialY and finalX decrease by 10 pixels.

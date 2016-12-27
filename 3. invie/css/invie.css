@@ -10,6 +10,19 @@
   font-size: 50px;
 }
 
+.guitars {
+  color: #1F313C;
+}
+
 .guitars h2 {
   font-size: 35px;
+}
+
+.main {
+  background-image: url('../images/background.png');
+  color: white;
+}
+
+.menu {
+  font-size: 24px;
 }

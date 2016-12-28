@@ -1,28 +1,29 @@
-* {
-  padding: 10px;
-  margin: 10px;
-  border: 2px solid red;
-}
-
 body {
   font-family: 'Allerta', sans-serif;
+  margin: 0;
 }
 
 .title {
   font-family: 'Montserrat', sans-serif;
   font-size: 70px;
+  margin-bottom: 0;
+  margin-top: 70px;
 }
 
 .title-a {
   font-size: 24px;
+  margin-top: 0;
 }
 
 .title-b {
   font-size: 50px;
+  margin-bottom: 20px;
 }
 
 .guitars {
   color: #1F313C;
+  width: 800px;
+  margin: auto;
 }
 
 .guitars h2 {
@@ -33,6 +34,13 @@ body {
 .main {
   background-image: url('../images/background.png');
   color: white;
+  padding: 20px;
+  width: 800px;
+  margin: auto;
+}
+
+.main button {
+  margin-bottom: 70px;
 }
 
 .menu {
@@ -42,8 +50,14 @@ body {
 
 .menu li {
   display: inline-block;
+  margin-left: 30px;
 }
 
 .logo {
   display: inline-block;
+}
+
+.header {
+  width: 800px;
+  margin: auto;
 }

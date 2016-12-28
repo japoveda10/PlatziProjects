@@ -1,4 +1,9 @@
+body {
+  font-family: 'Allerta', sans-serif;
+}
+
 .title {
+  font-family: 'Montserrat', sans-serif;
   font-size: 70px;
 }
 
@@ -15,6 +20,7 @@
 }
 
 .guitars h2 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 35px;
 }
 

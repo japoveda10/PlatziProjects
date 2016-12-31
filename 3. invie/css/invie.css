@@ -57,3 +57,30 @@ body {
   width: 800px;
   margin: auto;
 }
+
+.guitar {
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  border: 1px solid #1F313C
+}
+
+.guitar ol {
+  padding: 0;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.container-guitar-a {
+  padding-left: 20px;
+}
+
+.container-guitar-b {
+  margin-left: 370px;
+}

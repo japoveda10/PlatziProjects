@@ -42,6 +42,8 @@ body {
 .menu {
   font-size: 24px;
   display: inline-block;
+  position: absolute;
+  right: 0;
 }
 
 .menu li {
@@ -61,7 +63,6 @@ body {
 .guitar {
   margin: 10px;
   padding: 10px;
-  overflow: hidden;
   border: 1px solid #1F313C
 }
 
@@ -71,10 +72,14 @@ body {
 
 .right {
   float: right;
+  position: relative;
+  top: -127px;
 }
 
 .left {
   float: left;
+  position: relative;
+  top: 80px;
 }
 
 .container-guitar-a {
@@ -83,4 +88,8 @@ body {
 
 .container-guitar-b {
   margin-left: 370px;
+}
+
+.header {
+  position: relative;
 }

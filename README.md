@@ -3,12 +3,12 @@ In this repository I publish my Platzi courses projects, an online educational p
 
 1. [PlanetaryWeights](https://github.com/japoveda10/PlatziProjects/tree/master/1.%20PlanetaryWeights)
 
-Program that calculates your weight in other planets.
+    Program that calculates your weight in other planets.
 
 2. [DrawingCanvas](https://github.com/japoveda10/PlatziProjects/tree/master/2.%20DrawingCanvas)
 
-Some drawings with canvas.
+    Some drawings with canvas.
 
 3. [invie](https://github.com/japoveda10/PlatziProjects/tree/master/3.%20invie)
 
-Web page about guitars.
+    Website about Invie, a company that sells invisible guitars.

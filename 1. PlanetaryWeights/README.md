@@ -11,6 +11,7 @@ To calcule your weight in other planets, the program stores the value you type i
 it does the following calculation:
 
 <br>
+<br>
 
 ```javascript
 userWeight    --- EarthGravity

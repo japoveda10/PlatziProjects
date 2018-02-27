@@ -10,12 +10,13 @@ Planetary Weights has 3 files:
 To calcule your weight in other planets, the program stores the value you type in the input text field (your weight) and then
 it does the following calculation:
 
-<div align="center">
+```javascript
 userWeight    --- EarthGravity
-<br>
 planetXWeight --- PlanetXGravity
-</div>
+```
 
 <br>
 
-<p align="center">planetXWeight = (userWeight * PlanetXGravity) / EarthGravity</p>
+```javascript
+planetXWeight = (userWeight * PlanetXGravity) / EarthGravity
+```

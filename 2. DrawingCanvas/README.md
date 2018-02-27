@@ -21,6 +21,8 @@ for(var i=0; i<300; i++)
   draw(300, 300 - (i(times)10), 300 - ((i+1)(times)10), 0);
 }
 ```
+<br>
+<br>
 
 The drawing is made up with different lines. Let (initialX, initialY) be the first point and (finalX, finalY)
 be the second point of a line.

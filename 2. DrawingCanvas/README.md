@@ -1,7 +1,7 @@
 # DrawingCanvas
 Some drawings made with canvas
 
-##How does it work?
+## How does it work?
 Drawing Canvas has 3 files:
 <li>An HTML file</li>
 <li>A JavaScript file</li>

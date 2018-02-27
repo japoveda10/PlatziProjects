@@ -1,7 +1,7 @@
 # PlanetaryWeights
 Calculates your weight in other planets.
 
-##How does it work?
+## How does it work?
 Planetary Weights has 3 files:
 <li>An HTML file</li>
 <li>A JavaScript file</li>

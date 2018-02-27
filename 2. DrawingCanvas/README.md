@@ -12,6 +12,7 @@ In the JavaScript file, there is a function called <code>draw</code> that draws 
 is in charge of making the figures. The first <code>draw</code> function invocation draws the bottom-left figure and the second <code>draw</code> function invocation draws the upper-right figure:
 
 <br>
+<br>
 
 ```javascript
 for(var i=0; i<300; i++)
